@@ -1,0 +1,14 @@
+# Local config contains secrets — never commit
+app-config.local.yaml
+
+# Node
+node_modules/
+dist/
+.cache/
+*.log
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/settings.json
